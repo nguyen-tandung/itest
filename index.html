@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        body{
+            width:100%;
+            height: 100vh;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/b6e0b072897469.5bf6e79950d23.gif); 
+    background-size:cover;
+    background-position: center;
+    }
+    .navbar{
+        width:10%;
+
+    }
+    .navbar ul li {
+     list-style: none;
+     display: inline-block;
+     margin:0 20px;
+    }
+    .word-container {
+    display: flex;
+    text-align: center;
+   color:white;
+   font-size: 20px;
+  }
+  .word-container div {
+    flex: 0.5;
+    
+  }
+  .underline-hover {
+  text-decoration: none; /* Loại bỏ dấu gạch dưới mặc định */
+  transition: text-decoration 0.3s; /* Tạo hiệu ứng chuyển đổi khi di chuột vào */
+  color: rgb(252, 252, 252);
+}
+
+.underline-hover:hover {
+  text-decoration: underline; /* Hiển thị dấu gạch dưới khi di chuột vào */
+}
+.font2 {
+font-family: "Berlin Sans FB", serif;}
+.blurred-text {
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    .video-container {
+        position: absolute;
+  bottom: 10;
+  width: 100%;
+  text-align: center;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family: "ALGERIAN", serif; 
+  text-align: center;
+}
+.custom-link {
+      width: 100px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px; /* Bán kính của hình tròn = 1/2 chiều cao */
+        text-align: center;
+        background-color: #55c59a;
+        color: white;
+        text-decoration: none;
+    }
+    .custom-link {
+    flex: 0.5;
+  }
+    .button-container {
+      display: flex; /* Sử dụng flexbox để canh giữa các nút và chúng nằm ngang bằng nhau */
+      justify-content: center; /* Canh giữa các nút */
+    }
+    </style>
+</head>
+<body>
+        <div class="button-container">
+      <a href="index.html"class="custom-link">
+         <div class="underline-hover font2 blurred-text" >Trang Chủ</div> </a>
+         <a href="thongtin.html"class="custom-link">
+             <div class="underline-hover font2 blurred-text"> Thông Tin</div> </a>
+             <a href="ttweb.html"class="custom-link">
+                  <div class="underline-hover font2 blurred-text">Giới Thiệu</div> </a>
+                  <a href="https://search.yahoo.com/search;_ylt=AwrjaWwzl1RlNZYGIohXNyoA;_ylc=X1MDMjc2NjY3OQRfcgMyBGZyA21jYWZlZQRmcjIDc2ItdG9wBGdwcmlkA3NSd2dONk5UUTFTRDZFZnBtZ0VMMUEEbl9yc2x0AzAEbl9zdWdnAzAEb3JpZ2luA3NlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzI0BHF1ZXJ5A05oJUUxJUJCJUFGbmclMjAlQzQlOTFpJUUxJUJCJTgxdSUyMHYlRTElQkIlODElMjBUaSVFMSVCQiU4MW4lMjBHaWFuZwR0X3N0bXADMTcwMDA0MjU3OA--?p=Nh%E1%BB%AFng+%C4%91i%E1%BB%81u+v%E1%BB%81+Ti%E1%BB%81n+Giang&fr2=sb-top&fr=mcafee&type=E210US91215G0" target="_blank"class="custom-link">
+                     <div class="underline-hover font2 blurred-text">Tìm Kiếm</div> </a>
+    </div>
+</div>
+<div class="navbar">
+  <a href="index.html">  <img src="logo-removebg-preview.png" width="100" height="100"> </a> </div>
+<h1>INTRO</h1>
+<div class="video-container">
+<video width="640" height="240" controls>
+    <source src="video.mkv" type="video/mp4">
+  </video>
+</div>
+
+    </body>
+</html>
